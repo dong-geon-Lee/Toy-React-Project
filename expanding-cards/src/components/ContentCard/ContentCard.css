@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  border: none;
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #13c2a2;
+  cursor: pointer;
+  margin: 30px 0 30px 0;
+}
+
+.btn:hover {
+  background-color: aqua;
+}
+
+.btn:active {
+  transform: translateY(-3px);
+}
