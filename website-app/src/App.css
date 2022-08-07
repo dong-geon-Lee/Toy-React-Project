@@ -460,4 +460,28 @@ h3 {
 .skill .right p {
   margin-bottom: 20px;
 }
+
 /* ----------- Skill  -------------- */
+
+/* ----------- WrapperOne  -------------- */
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.wrapperOne {
+  background-color: #38d16a;
+  text-align: center;
+}
+
+.wrapperOne h1 {
+  color: #fff;
+}
+
+.wrapperOne p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* ----------- WrapperOne  -------------- */
