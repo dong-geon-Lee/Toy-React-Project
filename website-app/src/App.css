@@ -489,7 +489,8 @@ h3 {
 .work {
   background-color: #08071c;
   padding: 40px 0;
-  height: 170vh;
+  /* 170vh */
+  height: 100vh;
 }
 
 .work .heading {
@@ -634,3 +635,33 @@ h3 {
   right: 160px;
 }
 /* ----------- Work  -------------- */
+
+/* ----------- Blog  -------------- */
+.blog .heading {
+  text-align: center;
+}
+
+.blog .text {
+  margin: 0;
+}
+
+.blog span {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.blog h2 {
+  margin: 20px 0;
+}
+
+.blog a {
+  color: #38d16a;
+  display: block;
+  line-height: 20px;
+}
+
+.blog a .icon {
+  padding-top: 10px;
+}
+
+/* ----------- Blog  -------------- */
