@@ -11,7 +11,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="right topMargin">
+          <div className="right topMargin just">
             <h1>
               I AM A <br /> WEB DESIGNER
             </h1>
