@@ -139,6 +139,7 @@ header ul li a:hover {
   width: 100%;
   position: relative;
 }
+
 /* scale이 이미지를 더 돋보이게 해줬는데, 궁금한점은 경계 해석부분이다. */
 .home img {
   position: absolute;
@@ -370,7 +371,7 @@ h3 {
 
 .services .text {
   background-color: #fff;
-  box-shadow: 0 5px 20px 0 rgba(0 0 0 /6%);
+  box-shadow: 0 5px 20px 0 rgba(0 0 0 / 6%);
   padding: 30px;
   margin: 20px;
   margin-top: -30px;
@@ -381,6 +382,25 @@ h3 {
 .services .text h2 {
   font-weight: 500;
   font-size: 22px;
+  margin-bottom: 20px;
 }
 
 /* ----------- Services -------------- */
+
+/* ----------- Wrapper -------------- */
+.wrapper .container {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 40px;
+}
+
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+/* ----------- Wrapper  -------------- */
